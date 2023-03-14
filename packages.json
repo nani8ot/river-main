@@ -108,7 +108,9 @@
             "all": []
         },
         "exclude": {
-            "all": []
+            "all": [
+            "river"
+            ]
         }
     }
 }
