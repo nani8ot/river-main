@@ -67,6 +67,7 @@
                 "xfce-polkit",
                 "fontawesome-fonts",
                 "light"
+            ]
         },
         "exclude": {
             "all": [
