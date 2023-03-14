@@ -39,7 +39,8 @@
                 "fontawesome-fonts",
                 "light",
                 "dbus-daemon",
-                "tlp"
+                "tlp",
+                "pamixer"
             ],
             "silverblue": [
                 "ffmpegthumbnailer",
