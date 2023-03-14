@@ -37,7 +37,8 @@
                 "fish",
                 "xfce-polkit",
                 "fontawesome-fonts",
-                "light"
+                "light",
+                "dbus"
             ],
             "silverblue": [
                 "ffmpegthumbnailer",
