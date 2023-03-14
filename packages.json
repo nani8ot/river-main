@@ -79,7 +79,9 @@
                 "libpostproc-free",
                 "libswresample-free",
                 "libswscale-free",
-                "mesa-va-drivers"
+                "mesa-va-drivers",
+                "firefox",
+                "firefox-langpacks"
             ]
         }
     },
