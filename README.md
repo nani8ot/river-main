@@ -31,34 +31,13 @@ To rebase an existing Silverblue/Kinoite machine to the latest release (37):
 
 #### Silverblue (GNOME):
 
-    sudo rpm-ostree rebase ostree-unverified-registry:ghcr.io/ublue-os/silverblue-main:37
-
-#### Kinoite (KDE)
-
-    sudo rpm-ostree rebase ostree-unverified-registry:ghcr.io/ublue-os/kinoite-main:37
-    
-#### LXQt 
-
-    sudo rpm-ostree rebase ostree-unverified-registry:ghcr.io/ublue-os/lxqt-main:37
-    
-#### MATE
-
-    sudo rpm-ostree rebase ostree-unverified-registry:ghcr.io/ublue-os/mate-main:37
-    
-#### Sericea (Sway) 
-Fedora 38-only, recommended only for advanced users
-
-    sudo rpm-ostree rebase ostree-unverified-registry:ghcr.io/ublue-os/sericea-main:38
-
-#### Vauxite (XFCE) 
-    
-    sudo rpm-ostree rebase ostree-unverified-registry:ghcr.io/ublue-os/vauxite-main:37
+    sudo rpm-ostree rebase ostree-unverified-registry:ghcr.io/nani8ot/silverblue-riverblue:37
 
 #### Base
 
-Which does not come with any desktops or window managers:
+Which (originally) does not come with any desktops or window managersw, but this base-riverblue comes with river and sway:
 
-    sudo rpm-ostree rebase ostree-unverified-registry:ghcr.io/ublue-os/base-main:37
+    sudo rpm-ostree rebase ostree-unverified-registry:ghcr.io/nani8ot/base-riverblue:37
 
 ## Architecture
 
@@ -78,7 +57,7 @@ Flatpak installation is a WIP.
 
 These images are signed with sisgstore's [cosign](https://docs.sigstore.dev/cosign/overview/). You can verify the signature by downloading the `cosign.pub` key from this repo and running the following command:
 
-    cosign verify --key cosign.pub ghcr.io/ublue-os/base
+    cosign verify --key cosign.pub ghcr.io/nani8ot/base-riverblue
 
 If you're forking this repo you should [read the docs](https://docs.github.com/en/actions/security-guides/encrypted-secrets) on keeping secrets in github. You need to [generate a new keypair](https://docs.sigstore.dev/cosign/overview/) with cosign. The public key can be in your public repo (your users need it to check the signatures), and you can paste the private key in Settings -> Secrets -> Actions.
 
