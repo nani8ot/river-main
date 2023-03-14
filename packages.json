@@ -40,7 +40,8 @@
                 "light",
                 "dbus-daemon",
                 "tlp",
-                "pamixer"
+                "pamixer",
+                "river"
             ],
             "silverblue": [
                 "ffmpegthumbnailer",
