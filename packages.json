@@ -109,7 +109,6 @@
         },
         "exclude": {
             "all": [
-                "river",
                 "ulauncher"
             ]
         }
