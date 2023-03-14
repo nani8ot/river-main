@@ -108,9 +108,7 @@
             "all": []
         },
         "exclude": {
-            "all": [
-                "ulauncher"
-            ]
+            "all": []
         }
     }
 }
