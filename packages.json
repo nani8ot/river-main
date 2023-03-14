@@ -38,7 +38,8 @@
                 "xfce-polkit",
                 "fontawesome-fonts",
                 "light",
-                "dbus-daemon"
+                "dbus-daemon",
+                "tlp"
             ],
             "silverblue": [
                 "ffmpegthumbnailer",
