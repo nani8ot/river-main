@@ -7,7 +7,7 @@ on:
       - '**.md'
       - '**.txt'
   schedule:
-    - cron: '20 20 * * *'  # 8:20pm everyday
+    - cron: '0 4 * * *'  # 04:00 everyday
   workflow_dispatch:
   push:
     branches:
