@@ -1,2 +1,0 @@
-mask systemd-rfkill.service systemd-rfkill.socket power-profiles-daemon.service
-enable tlp.service
