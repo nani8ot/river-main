@@ -7,6 +7,8 @@ systemctl enable flatpak-system-update.timer
 
 systemctl --global enable flatpak-user-update.timer
 
-flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+# mask rfkill and ppd for tlp to work
+systemctl mask systemd-rfkill.service systemd-rfkill.socket power-profiles-daemon.service
+systemctl enable tlp.service
 
 cp /usr/share/ublue-os/ublue-os-update-services/etc/rpm-ostreed.conf /etc/rpm-ostreed.conf
