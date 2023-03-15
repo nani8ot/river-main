@@ -41,7 +41,14 @@
                 "dbus-daemon",
                 "tlp",
                 "pamixer",
-                "river"
+                "river",
+                "wireguard-tools",
+                "podman-docker",
+                "podman-compose",
+                "libratbag-ratbagd",
+                "kanshi",
+                "grim",
+                "slurp"
             ],
             "silverblue": [
                 "ffmpegthumbnailer",
