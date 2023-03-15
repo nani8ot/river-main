@@ -53,31 +53,6 @@
             "silverblue": [
                 "ffmpegthumbnailer",
                 "gnome-tweaks"
-            ],
-            "riverblue": [
-                "neovim",
-                "xdg-desktop-portal-wlr",
-                "network-manager-applet",
-                "nm-connection-editor",
-                "xfce-polkit",
-                "clipman",
-                "corectrl",
-                "ddcutil",
-                "mako",
-                "sway",
-                "swaybg",
-                "lm_sensors",
-                "playerctl",
-                "swayidle",
-                "papirus-icon-theme",
-                "swaylock",
-                "ulauncher",
-                "waybar",
-                "wdisplays",
-                "fish",
-                "xfce-polkit",
-                "fontawesome-fonts",
-                "light"
             ]
         },
         "exclude": {
