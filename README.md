@@ -1,6 +1,7 @@
 # Main
 
 [![build-ublue](https://github.com/ublue-os/main/actions/workflows/build.yml/badge.svg)](https://github.com/ublue-os/main/actions/workflows/build.yml)
+[![build-riverblue](https://github.com/nani8ot/riverblue/actions/workflows/build.yml/badge.svg)](https://github.com/nani8ot/riverblue/actions/workflows/build.yml)
 
 A WIP common main image for all other Ublue images.
 
