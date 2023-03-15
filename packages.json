@@ -41,7 +41,7 @@
                 "dbus-daemon",
                 "tlp",
                 "pamixer",
-                "river",
+                "river-git",
                 "wireguard-tools",
                 "podman-docker",
                 "podman-compose",
