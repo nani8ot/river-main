@@ -17,8 +17,8 @@ ADD packages.json /tmp/packages.json
 
 COPY --from=ghcr.io/ublue-os/config:latest /rpms /tmp/rpms
 
-RUN /tmp/build.sh \
-    rm -f /etc/yum.repos.d/_copr_david35mm-pamixer.repo \
+RUN /tmp/build.sh && \
+    rm -f /etc/yum.repos.d/_copr_david35mm-pamixer.repo && \
     rm -f /etc/yum.repos.d/_copr_nani8ot-river.repo
 RUN /tmp/post-install.sh
 RUN rm -rf /tmp/* /var/*
