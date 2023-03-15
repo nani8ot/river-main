@@ -73,13 +73,7 @@
     },
     "37": {
         "include": {
-            "all": [],
-            "mate": [
-                "f37-backgrounds-base",
-                "f37-backgrounds-extras-base",
-                "f37-backgrounds-extras-mate",
-                "f37-backgrounds-mate"
-            ]
+            "all": []
         },
         "exclude": {
             "all": []
