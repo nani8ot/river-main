@@ -48,7 +48,8 @@
                 "libratbag-ratbagd",
                 "kanshi",
                 "grim",
-                "slurp"
+                "slurp",
+                "pavucontrol"
             ],
             "silverblue": [
                 "ffmpegthumbnailer",
